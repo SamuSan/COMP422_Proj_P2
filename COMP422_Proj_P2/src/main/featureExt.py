@@ -31,7 +31,7 @@ def extract_local_regions(Image):
 	boxes.append(cut_box(right +1, lower +1, Image.size[0], Image.size[1],Image ))#low right quad	
 	boxes.append(cut_box(9,0,10,Image.size[1], Image))#center strip
 	boxes.append(cut_box(0,9,Image.size[0],10, Image))#
-	boxes.append(cut_box(4,4,13,13,Image))
+	boxes.append(cut_box(4,4,13,13,Image))#center box
 	add_val_strings(boxes)
 	get_mean_dif(boxes)
 
