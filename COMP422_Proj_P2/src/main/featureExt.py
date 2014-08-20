@@ -154,7 +154,7 @@ def process_images(imageDir):
 	    		fp.close()
 
 def write_out(imageDir):
-	fname = "imageRecogFeatures" + str(imageDir)
+	fname = "imageRecogFeatures" + str(imageDir) + ".arff"
 	outfile = open(fname, "w")
 	outfile.write("@RELATION images\n\n")
 
