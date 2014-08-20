@@ -21,17 +21,9 @@ public class Main
     public static void main( String[] args )
     {
 
-createImages();
-    }
-
-    private static void extractFeatures()
-    {
-        FeatureExtractor fe = new FeatureExtractor( files);
-    }
-    
-    private static void createImages(){
 
     }
+
     
     
     
